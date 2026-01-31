@@ -1,16 +1,16 @@
 auth:
   jwt:
-    secret: # RUN THIS TO GENERATE SECRET: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+    secret: 915d2e1f1bf56fa2185f1092d3102d46f90905f6632d2b4b7c84bdf7f5bf62f6
     expiration: 3600000 #IN MILLISECONDS
 cookie:
-  name: new-company # CHANGE COOKIE NAME
+  name: property-hub
   domain: localhost
   secure: true
 spring:
   profiles:
     active: local
   datasource:
-    url: jdbc:postgresql://localhost:5432/new-company # CHANGE DB NAME
+    url: jdbc:postgresql://localhost:5432/property-hub
     username: postgres
     password: postgres
     driverClassName: org.postgresql.Driver

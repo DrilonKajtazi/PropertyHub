@@ -8,11 +8,11 @@
 		<version>3.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.newcompany</groupId>
-	<artifactId>new-company</artifactId>
+	<groupId>com.propertyhub</groupId>
+	<artifactId>property-hub</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>new-company</name>
-	<description>New Company</description>
+	<name>property-hub</name>
+	<description>Property Hub</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
