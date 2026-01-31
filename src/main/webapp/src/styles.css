@@ -1,0 +1,80 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Poppins, sans-serif;
+  src: url("/assets/Fonts/Poppins-Thin.ttf") format("opentype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Poppins, sans-serif;
+  src: url("/assets/Fonts/Poppins-ExtraLight.ttf") format("opentype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Poppins, sans-serif;
+  src: url("/assets/Fonts/Poppins-Light.ttf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Poppins, sans-serif;
+  src: url("/assets/Fonts/Poppins-Regular.ttf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Poppins, sans-serif;
+  src: url("/assets/Fonts/Poppins-Medium.ttf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Poppins, sans-serif;
+  src: url("/assets/Fonts/Poppins-SemiBold.ttf") format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Poppins, sans-serif;
+  src: url("/assets/Fonts/Poppins-Bold.ttf") format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Poppins, sans-serif;
+  src: url("/assets/Fonts/Poppins-ExtraBold.ttf") format("opentype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Poppins, sans-serif;
+  src: url("/assets/Fonts/Poppins-Black.ttf") format("opentype");
+  font-weight: 900;
+}
+
+:root {
+  --dark-green: #123522;
+  --light-green: #4F7942;
+  --white: #ffffff;
+  --red: #DC3545;
+  --light-red: #C82333;
+  --light-grey: #F9F9F9;
+}
+
+* {
+  font-family: Poppins, sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0 !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

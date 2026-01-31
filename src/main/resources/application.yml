@@ -1,0 +1,25 @@
+auth:
+  jwt:
+    secret: # RUN THIS TO GENERATE SECRET: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+    expiration: 3600000 #IN MILLISECONDS
+cookie:
+  name: new-company # CHANGE COOKIE NAME
+  domain: localhost
+  secure: true
+spring:
+  profiles:
+    active: local
+  datasource:
+    url: jdbc:postgresql://localhost:5432/new-company # CHANGE DB NAME
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8086
