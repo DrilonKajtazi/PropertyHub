@@ -1,0 +1,8 @@
+CREATE TYPE role AS ENUM ('ROLE_USER', 'ROLE_ADMIN');
+CREATE TABLE users (
+    id SERIAL,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password TEXT NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    role role NOT NULL
+)

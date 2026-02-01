@@ -1,3 +1,6 @@
+app:
+  sql:
+    scan-pattern: "classpath*:**/sql/*.sql"
 auth:
   jwt:
     secret: 915d2e1f1bf56fa2185f1092d3102d46f90905f6632d2b4b7c84bdf7f5bf62f6
@@ -18,8 +21,9 @@ spring:
     multipart:
       max-file-size: 10MB
       max-request-size: 10MB
-  jpa:
-    hibernate:
-      ddl-auto: update
+  flyway:
+    enabled: true
+  elasticsearch:
+    uris: http://localhost:9200
 server:
   port: 8086
