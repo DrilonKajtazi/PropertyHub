@@ -1,0 +1,1 @@
+CREATE INDEX listings_created_at_id_idx ON listings(created_at DESC, id)

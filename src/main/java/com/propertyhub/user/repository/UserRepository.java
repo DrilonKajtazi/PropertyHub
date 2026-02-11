@@ -43,8 +43,8 @@ public class UserRepository {
         );
     }
 
-    private Map<String, Object> prepareUserParams(User user) {
-        Map<String, Object> params = new HashMap<>();
+    private Map<String, String> prepareUserParams(User user) {
+        Map<String, String> params = new HashMap<>();
         params.put("username", user.getUsername());
         params.put("password", user.getPassword());
         params.put("email", user.getEmail());
